@@ -1,6 +1,6 @@
 # include <stdio.h>
-int main()
+int main(void)
 {
-    fputs("Programming is like building a multilingual puzzle", stdout);	
-	return (0);
+fputs("\ "Programming is like building a multilingual puzzle" ", stdout);
+return (0);
 }
