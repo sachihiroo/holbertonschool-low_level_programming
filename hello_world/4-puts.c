@@ -1,6 +1,7 @@
 # include <stdio.h>
 /**
- *Describing the fonction
+ * main - Entrance point
+ *
  *Return: 0
  */
 int main(void)
