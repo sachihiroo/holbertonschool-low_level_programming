@@ -2,13 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main-'This is the entry point of the codemain'.
+*main- print if the number is positive, zero or negative.
 *
-*description:If the expression is true (the value of
-*the expression is not 0) then the
-*block is executed.
-*
-*Return - 0 Successful
+*Return: Always (Success)
 */
 int main(void)
 {
