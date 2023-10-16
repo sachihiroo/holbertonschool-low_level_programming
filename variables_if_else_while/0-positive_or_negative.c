@@ -2,15 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - 'This is the entry point of the codemain'. 
- *description:If the expression is true (the value of
- *the expression is not 0) then the
- *block is executed.
- *Return - 0 Successful
- */
+*main-'This is the entry point of the codemain'.
+*description:If the expression is true (the value of
+*the expression is not 0) then the
+*block is executed.
+*Return - 0 Successful
+*/
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0) 
