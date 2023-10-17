@@ -4,23 +4,22 @@
 /**
 *main -Entry point
 *
-*This program will assign a random number to 
-*the variable n each time it is executed
+*This program will assign a random number to
+*the variable n each time it is executed.
 *
-* Return: Always (Success)
+*Return: Always (Success)
 */
 int main(void)
 {
-	int n, x;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	x = n % 10;
-	if ( x > 5 )
-		printf("Last digit is %d \n", n, x,);
-	if ( x == 0 )
-		printf("LAst digit is %d \n", n, x,);
-	if ( x < 6 )
-		printf("Last digit is %d \n", n, x,);
+	if ( n % 10 > 5 )
+		printf("Last digit is %d  \n", n);
+	if ( n % 10 == 0 )
+		printf("LAst digit is %d %d \n", n);
+	if ( n % 10 < 6 )
+		printf("Last digit is %d %d \n", n);
 	return (0);
 }
