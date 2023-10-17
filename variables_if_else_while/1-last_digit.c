@@ -16,10 +16,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if ( n % 10 > 5 )
-		printf("Last digit is %d  \n", n);
+		printf("Last digit is %d \n", n);
 	if ( n % 10 == 0 )
-		printf("LAst digit is %d %d \n", n);
+		printf("LAst digit is %d \n", n);
 	if ( n % 10 < 6 )
-		printf("Last digit is %d %d \n", n);
+		printf("Last digit is %d \n", n);
 	return (0);
 }
