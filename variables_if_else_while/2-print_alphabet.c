@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+/**
+*main - Entry point.
+*
+*Write a program that prints the alphabet in lowercase.
+*
+*/
 int main(void)
 {
 	char ch;
