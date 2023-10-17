@@ -4,6 +4,7 @@
 *
 *Write a program that prints the alphabet in lowercase.
 *
+*Return: Always (Success)
 */
 int main(void)
 {
@@ -13,5 +14,6 @@ int main(void)
 	{
 	   putchar(ch);
 	}
+	putchar('\n');
 	return (0);
 }
