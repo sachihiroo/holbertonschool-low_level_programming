@@ -2,7 +2,8 @@
 /**
 *main - Entry point.
 *
-*Write a program that prints the alphabet in lowercase and uppercase.
+*Write a program that prints the alphabet in lowercase
+*without e and q
 *
 *Return: Always (Success)
 */
@@ -10,13 +11,12 @@ int main(void)
 {
 char ch;
 
-for (ch = 'a'; ch <= 'd' ; ch++)
+for (ch = 'a'; ch -1 < 'z' ; ++ch)
+{
+if ((i != 'q') && (i != 'e'))
 {
 putchar(ch);
 }
-for (ch = [f..p] ; ch <= [r..z] ; ch++)
-{
-putchar(ch);
 }
 putchar('\n');
 return (0);
