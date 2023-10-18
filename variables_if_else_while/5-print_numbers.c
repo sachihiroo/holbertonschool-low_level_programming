@@ -10,9 +10,10 @@ int main(void)
 {
 unsigned int i;
 
-for (i = 1; i <= 10; i++)
+for (i = 1; i <= 10; ++i)
 {
 printf("%d", i);
 }
-putchar("\n");
+putchar('\n');
+return (0);
 }
