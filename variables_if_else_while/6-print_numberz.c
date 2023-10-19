@@ -8,12 +8,11 @@
 */
 int main(void)
 {
-unsigned int i;
+int i;
 
-for (i = 0; i <= 9; i++)
+for (i = 0; i <= 10; i++)
 {
-putchar(i);
-return (i);
+putchar( i + '0');
 }
 putchar('\n');
 return (0);
