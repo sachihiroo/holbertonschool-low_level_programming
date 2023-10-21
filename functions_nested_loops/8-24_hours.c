@@ -6,7 +6,7 @@
  */
 void jack_bauer(void)
 {
-	int x,n;
+	int x ,n;
 
 	for (x = 0; x < 24; ++x)
 	{
