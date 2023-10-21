@@ -2,7 +2,7 @@
 /**
 *_isalpha - check the code
 *
-* description: a function that checks for lowercase 
+*description: a function that checks for lowercase 
 *and uppercase character.
 *@c : int
 * Return: Always 0
