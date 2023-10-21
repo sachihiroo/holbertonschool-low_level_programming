@@ -1,6 +1,8 @@
 #include "main.h"
 /**
-* int_islower - check the code
+* int _islower - check the code
+*
+* @c : integer
 *
 * Return: Always 0.
 */
