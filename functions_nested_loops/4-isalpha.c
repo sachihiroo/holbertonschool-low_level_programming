@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_islower - check the code
+*_isalpha - check the code
 *
 * description: a function that checks for lowercase 
 *and uppercase character.
@@ -8,7 +8,7 @@
 * Return: Always 0
 */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 if ((c >= 97) && (c <= 122) || (c >= 65) && (c <= 90)
 	return (1);
