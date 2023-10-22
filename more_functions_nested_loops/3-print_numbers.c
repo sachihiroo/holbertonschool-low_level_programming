@@ -11,7 +11,7 @@ int i;
 
 for (i = 0; i < 10; i++)
 {
-_putchar('0' + i);
+putchar('0' + i);
 }
-_putchar('\n');
+putchar('\n');
 }
