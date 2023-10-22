@@ -8,7 +8,6 @@
 void print_number(int n)
 {
 	unsigned int num;
-	int div = 10;
 
 	if (n < 0)
 	{
