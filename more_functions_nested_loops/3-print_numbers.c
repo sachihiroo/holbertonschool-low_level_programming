@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_numbers - Entry Point
- * description: from 0 to 9
+ * print_numbers - check the code
+ * Description: print from 0 to 9
  * Return: void
  */
 void print_numbers(void)
