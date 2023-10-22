@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int x;
+	int n;
 
 	n = add(89, 9);
-	printf("%d\n", x);
+	printf("%d\n", n);
 	return (0);
 }
