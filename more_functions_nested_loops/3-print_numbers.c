@@ -3,7 +3,7 @@
   * print_numbers - Entry Point
   * Return: 0 (Success)
   */
-void print_numbers(void)
+void print_numbers(int i)
 {
 	int i = 0;
 
