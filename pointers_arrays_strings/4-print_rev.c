@@ -9,8 +9,9 @@
 void print_rev(char *s)
 {
 
-	for (; *s -!= '\0'; s++)
+	for (; *s != '\0'; s++)
 	{
+		print_rev(s + 1);
 		_putchar(s + 0);
 	}
 	_putchar('\n');
