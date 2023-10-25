@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * puts2 - check the code
+ * puts_half - check the code
  * @str: pointer
  * Return: Always 0.
  */
@@ -13,7 +13,7 @@ void puts_half(char *str)
 	x = strlen(str);
 	if (x % 2 == 0)
 	{
-		for (i = x / 2; i < x; i ++)
+		for (i = x / 2; i < x; i++)
 		{
 			_putchar(str[i]);
 		}
