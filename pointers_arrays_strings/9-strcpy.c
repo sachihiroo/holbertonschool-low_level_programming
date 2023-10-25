@@ -3,7 +3,7 @@
 #include <string.h>
 /**
  * *_strcpy - check the code
- * @src
+ * @src: pointer
  * @dest: pointer
  * Return: Always 0.
  */
@@ -18,7 +18,7 @@ char *_strcpy(char *dest, char *src)
 	}
 	for ( ; i < n; i++)
 	{
-		dest[i] = '\0';
+		dest[i] = ('\0');
 	}
 	return (dest);
 }
