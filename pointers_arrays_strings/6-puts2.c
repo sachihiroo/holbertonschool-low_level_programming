@@ -8,12 +8,14 @@
  */
 void puts2(char *str)
 {
-	int i;
+	int i, x;
+	char n[32];
+	x = strlen(str);
 
-	for(i =0; i < strlen(str); i += 2)
+	for(i =0; i < x; i += 2)
 	{
 		_putchar(str[i]);
-		s[i / 2] = str[i];
+		n[i / 2] = str[i];
 	}
 	_putchar('\n');
 }
