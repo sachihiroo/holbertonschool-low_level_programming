@@ -3,14 +3,14 @@
 #include <string.h>
 /**
  * *string_toupper - check the code
- * @*str: pointer
+ * @str: pointer
  * Return: Always 0.
  */
 char *string_toupper(char *str)
 {
 	int i;
 
-	for (i =0; str[i] != '\0';i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (str[i] >= 97 && str[i] <= 122)
 		{
