@@ -3,9 +3,7 @@
 #include <string.h>
 /**
  * *cap_string - check the code
- * @src: pointer
- * @dest: pointer
- * @n: int
+ * @s: pointer
  * Return: Always 0.
  */
 char *cap_string(char *s)
