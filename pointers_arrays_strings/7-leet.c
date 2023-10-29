@@ -8,15 +8,13 @@
 */
 char *leet(char *s)
 {
-	int i, j, len =0;
+	int i;
 	char x[5] = {'A', 'E', 'O', 'T', 'L'};
 	int n[5] = {4, 0, 3, 7, 1};
-	int i;
 
-	len = strlen(s);
-	while (*c)
+	while (*s)
 	{
-		for (i = 0; i < x / n; i++)
+		for (i = 0; i < x; i++)
 		{
 			if (*s == x[i] || *s == + 32)
 			{
@@ -27,5 +25,3 @@ char *leet(char *s)
 	}
 	return(s);
 }
-
-
