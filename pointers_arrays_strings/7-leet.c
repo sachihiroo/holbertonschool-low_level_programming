@@ -11,6 +11,7 @@ char *leet(char *s)
 	unsigned int i;
 	char x[] = {'A', 'E', 'O', 'T', 'L'};
 	int n[] = {4, 3, 0, 7, 1};
+	char *str = s;
 
 	while (*s)
 	{
@@ -23,5 +24,5 @@ char *leet(char *s)
 		}
 		s++;
 	}
-	return (s);
+	return (str);
 }
