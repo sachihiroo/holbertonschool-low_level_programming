@@ -4,7 +4,7 @@
 /**
  * _strspn - check the code
  * @s : string
- * @accept : string 
+ * @accept : string
  * Return: Always 0.
  */
 unsigned int _strspn(char *s, char *accept)
