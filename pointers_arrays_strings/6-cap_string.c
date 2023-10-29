@@ -8,7 +8,7 @@
  * @n: int
  * Return: Always 0.
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	int i, cap, l = 0;
 
