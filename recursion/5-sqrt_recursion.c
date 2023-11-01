@@ -7,7 +7,7 @@
  * Return: Always 0.
  */
 int _sqrt_recursion(int n)
-int sqr(int n, int i)
+int sqr(int n, int i);
 {
 	return (sqr(n, 1));
 }
