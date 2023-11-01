@@ -6,8 +6,8 @@
  * @i: int
  * Return: Always 0.
  */
-int _sqrt_recursion(int n)
 int sqr(int n, int i);
+int _sqrt_recursion(int n)
 {
 	return (sqr(n, 1));
 }
@@ -17,6 +17,7 @@ int sqr(int n, int i);
  * @i: int
  * Return: Always 0.
  */
+
 int sqr(int n, int i)
 {
 	if (i * i == n)
@@ -25,7 +26,7 @@ int sqr(int n, int i)
 	}
 	else if (i * i < n)
 	{
-		return (sqr(n, i +1));
+		return (sqr(n, i + 1));
 	}
 	else
 	{
