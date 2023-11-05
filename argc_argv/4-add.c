@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 		for (i = argv[argc]; *i; i++)
 			if (*i < '0' || *i > 9)
 				return (printf("Error\n"), 1);
-		res = res + atoi(argv[argc]);
+		res = res + (atoi(argv[argc]));
 	}
 	printf("%d\n", res);
 	return (0);
