@@ -8,6 +8,7 @@
 int main(int argc, char *argv[])
 {
 	int mul;
+	(void)atoi;
 
 	if (argc == 3)
 	{
