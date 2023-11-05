@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  *main - print mul
  *@argc: int
@@ -8,7 +9,6 @@
 int main(int argc, char *argv[])
 {
 	int mul;
-	(void)atoi;
 
 	if (argc == 3)
 	{
@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("error\n");
+		printf("Error\n");
 		return (1);
 	}
 }
