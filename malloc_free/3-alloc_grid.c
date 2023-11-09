@@ -9,13 +9,13 @@
 int **alloc_grid(int width, int height)
 {
 	int i, j;
-	char **array;
+	int **array;
 
 	if (width <= 0 || height <= 0)
 	{
-		return (NULL)
+		return (NULL);
 	}
-	array = mallac(sizeof(int *) * height);
+	array = malloc(sizeof(int *) * height);
 	if (array == NULL)
 	{
 		return (NULL);
