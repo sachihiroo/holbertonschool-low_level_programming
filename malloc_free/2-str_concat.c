@@ -3,7 +3,7 @@
  * *str_concat - a function that concatenates two strings.
  * @s1: pointer
  * @s2: pointer
- * Return:
+ * Return: pointer oor NULL
  */
 char *str_concat(char *s1, char *s2)
 {
