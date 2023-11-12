@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	_putchar("_FILE_");
+	puts(_FILE_);
 	return (0);
 }
