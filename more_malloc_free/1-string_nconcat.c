@@ -3,7 +3,7 @@
  * *string_nconcat - a function that concatenates two strings.
  * @s1: pointer
  * @s2: pointer
- * @i: unsigned int
+ * @n: unsigned int
  * Return: pointer oor NULL
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
