@@ -1,4 +1,4 @@
-struct my_struct
+struct dog
 {
 	char *name;
 	float *age;
