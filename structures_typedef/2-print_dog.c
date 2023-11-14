@@ -1,9 +1,6 @@
 #include "dog.h"
 /**
- * init_dog - Short description
- * @name: char
- * @age: float
- * @owner: char
+ * print_dog - Short description
  * @d: the dog to init
  * Return: void.
  */
@@ -15,11 +12,13 @@ void print_dog(struct dog *d)
 	}
 	if (d->name == NULL)
 	{
-		d->name = "Name: (nil)";
-	
+		d->name = "(nil)";
 	}
-
-		printf("%s\n", d->name);
-		printf("Age: %f\n", d->age);
-		printf("Owner: %s\n", d->owner);
+	if (d->owner == NULL)
+	{
+		d->owner = "(nil)";
+	}
+	printf("Name: %s\n", d->name);
+	printf("Age: %f\n", d->age);
+	printf("Owner: %s\n", d->owner);
 }
