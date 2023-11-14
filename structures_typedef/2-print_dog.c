@@ -11,7 +11,7 @@ void print_dog(struct dog *d)
 {
 	if (d == NULL)
 	{
-		printf("(nil)");
+		printf("Name: (nil)");
 	}
 	if (d->name == NULL)
 	{
