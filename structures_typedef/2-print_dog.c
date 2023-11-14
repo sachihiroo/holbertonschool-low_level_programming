@@ -17,5 +17,5 @@ void print_dog(struct dog *d)
 	{
 		d->name = "nil";
 	}
-	return (d);
+	return (struct dog);
 }
