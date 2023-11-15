@@ -1,6 +1,6 @@
 #include "dog.h"
 /**
- * print_dog - Short description
+ * *new_dog - Short description
  * @name: char
  * @age: float
  * @owner: char
