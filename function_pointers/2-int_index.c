@@ -1,10 +1,10 @@
 #include "function_pointers.h"
 /**
- * array_iterator - a function that prints a name.
+ * int_index - a function that searches for an integer.
  * @array: int
  * @size: int
  * @cmp: int
- * Return: 0
+ * Return: index
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
