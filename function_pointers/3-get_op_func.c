@@ -1,8 +1,8 @@
 #include "3-calc.h"
 /**
- * *get_op_func -
+ * *get_op_func - Check the code.
  * @s: char
- * Return: int
+ * Return: NULL
  */
 int (*get_op_func(char *s))(int, int)
 {
@@ -16,7 +16,7 @@ int (*get_op_func(char *s))(int, int)
 	int i;
 
 	i = 0;
-	while (i < 6)
+	while (i < 6 && i!= 5)
 	{
 		if (strcmp(s, ops[i].op))
 		{
