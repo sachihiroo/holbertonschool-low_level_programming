@@ -16,11 +16,11 @@ int main(int argc, char *argv[])
 
 		if ((*get_op_func(argv[2])) != NULL)
 		{
-			printf("%d\n", (*get_op_func(*s)(a, b)));
+			printf("%d\n", (*get_op_func(argv[2])(a, b)));
 		}
 		else
 		{
-			printf("Error")
+			printf("Error");
 				exit(99);
 		}
 	}
