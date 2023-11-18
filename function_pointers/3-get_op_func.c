@@ -20,7 +20,7 @@ int (*get_op_func(char *s))(int, int)
 	{
 		if (strcmp(s, ops[i].op))
 		{
-			return ((*f));
+			return ((int));
 		}
 		i++;
 	}
