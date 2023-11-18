@@ -5,7 +5,7 @@
  * @argc: int
  * Return:
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 	int a, b;
 
@@ -14,7 +14,7 @@ int main(int argc, char argv[])
 		a = atoi(argv[1]);
 		b = atoi(argv[3]);
 
-		if ((*get_op_func(*s))(int, int) != NULL)
+		if ((*get_op_func(argv[2])) != NULL)
 		{
 			printf("%d\n", (*get_op_func(*s)(a, b)));
 		}
