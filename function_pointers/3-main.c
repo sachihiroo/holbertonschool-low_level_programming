@@ -5,7 +5,7 @@
  * @argc: int
  * Return:
  */
-void main(int argc, char argv[])
+int main(int argc, char argv[])
 {
 	int a, b;
 
@@ -29,4 +29,5 @@ void main(int argc, char argv[])
 		printf("Error");
 		exit(98);
 	}
+	return (0);
 }
