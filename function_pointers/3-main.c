@@ -20,13 +20,13 @@ int main(int argc, char *argv[])
 		}
 		else
 		{
-			printf("Error");
+			printf("Error\n");
 				exit(99);
 		}
 	}
 	else
 	{
-		printf("Error");
+		printf("Error\n");
 		exit(98);
 	}
 	return (0);
