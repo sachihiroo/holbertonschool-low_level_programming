@@ -30,7 +30,7 @@ void om_float(va_list *args)
  */
 void om_string(va_list *args)
 {
-	char *op = va_arg(*args, *char);
+	char *op = va_arg(*args, char *);
 	printf("%s", (op == NULL) ? "(nil)" : op);
 }
 
@@ -66,7 +66,7 @@ void print_all(const char *const format, ...)
 		{
 			if (L[j].op == format[i])
 			{
-				printf(% s, seperator);
+				printf("%s", seperator);
 				f[j].take(&args);
 				seperator = ", ";
 				break;
@@ -75,4 +75,6 @@ void print_all(const char *const format, ...)
 		}
 		i++;
 	}
+	va_end(args);
+	printf("\n");
 }
