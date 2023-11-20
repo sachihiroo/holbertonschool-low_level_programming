@@ -21,9 +21,4 @@ void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 char *strings(char *s);
 
-
-void om_char(va_list args*);
-void om_int(va_list args*);
-void om_float(va_list args*);
-void om_string(va_list args*);
 #endif
