@@ -4,9 +4,9 @@
  * om_char - check the code
  * @args: pointer
  */
-void om_char(va_list args *)
+void om_char(va_list args*)
 {
-	printf("%c", va_arg(args *, char));
+	printf("%c", va_arg(args*, char));
 }
 /**
  * om_int - check the code
@@ -14,23 +14,23 @@ void om_char(va_list args *)
  */
 void om_int(va_list args *)
 {
-	printf("%d", va_arg(args *, int));
+	printf("%d", va_arg(args*, int));
 }
 /**
  * om_float - check the code
  * @args: pointer
  */
-void om_float(va_list args *)
+void om_float(va_list args*)
 {
-	printf("%f", va_arg(args *, double));
+	printf("%f", va_arg(args*, double));
 }
 /**
  * om_string - check the code
  * @args: pointer
  */
-void om_string(va_list args *)
+void om_string(va_list args*)
 {
-	char *op = va_arg(args *, *char);
+	char *op = va_arg(args*, *char);
 	printf("%s", (op == NULL) ? "(nil)" : op);
 }
 
