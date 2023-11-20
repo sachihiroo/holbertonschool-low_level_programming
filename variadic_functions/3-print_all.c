@@ -31,12 +31,13 @@ void om_float(va_list *args)
 void om_string(va_list *args)
 {
 	char *op = va_arg(*args, char *);
+
 	printf("%s", (op == NULL) ? "(nil)" : op);
 }
 
 /**
  * print_all - Check the code.
- * @sformat: const char pointer
+ * @format: const char pointer
  * Return: void
  */
 void print_all(const char *const format, ...)
