@@ -6,7 +6,7 @@
  */
 void om_char(va_list *args)
 {
-	printf("%c", va_arg(*args, char));
+	printf("%c", va_arg(*args, char *));
 }
 /**
  * om_int - check the code
@@ -67,7 +67,7 @@ void print_all(const char *const format, ...)
 			if (L[j].op == format[i])
 			{
 				printf("%s", seperator);
-				f[j].take(&args);
+				L[j].take(&args);
 				seperator = ", ";
 				break;
 			}
