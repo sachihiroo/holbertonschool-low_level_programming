@@ -53,6 +53,7 @@ void print_all(const char *const format, ...)
 		{'\0', NULL},
 	};
 	const char *seperator = "";
+	
 	va_start(args, format);
 	if (format == NULL)
 	{
