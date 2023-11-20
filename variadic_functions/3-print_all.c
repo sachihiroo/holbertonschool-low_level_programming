@@ -6,7 +6,7 @@
  */
 void om_char(va_list *args)
 {
-	printf("%c", va_arg(*args, char *));
+	printf("%c", va_arg(*args, int));
 }
 /**
  * om_int - check the code
