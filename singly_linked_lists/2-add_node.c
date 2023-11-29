@@ -11,7 +11,7 @@ list_t *add_node(list_t **head, const char *str)
 
 	if (second_node == NULL)
 	{
-		free (second_node);
+		free(second_node);
 		return (NULL);
 	}
 
@@ -19,13 +19,13 @@ list_t *add_node(list_t **head, const char *str)
 
 	if (second_node->str == NULL)
 	{
-		free (second_node);
+		free(second_node);
 		return (NULL);
 	}
 
 	second_node->len = strlen(second_node->str);
 	second_node->next = *head;
 	*head = second_node;
-	
+
 	return (second_node);
 }
