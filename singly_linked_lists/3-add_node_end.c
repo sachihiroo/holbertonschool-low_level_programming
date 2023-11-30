@@ -27,7 +27,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	second_node->next = NULL;
 
 	if (*head == NULL)
-		*head == second_node;
+		*head = second_node;
 	else
 	{
 		list_t *third_node = *head;
