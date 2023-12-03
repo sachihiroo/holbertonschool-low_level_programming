@@ -37,7 +37,7 @@ list_t *add_node_end(list_t **head, const char *str)
 			third_node = third_node->next;
 		}
 
-		third_node = second_node;
+		third_node->next = second_node;
 	}
 
 	return (second_node);
