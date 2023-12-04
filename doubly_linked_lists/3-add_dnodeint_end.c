@@ -1,9 +1,9 @@
 #include "lists.h"
 /**
- * *add_dnodeint_end - a function that adds a new node at the beginning of a list.
+ * *add_dnodeint_end - function that adds a new node at the beginning of a list
  * @n: const int
  * @head: pointer
- * Return: node.
+ * Return: node
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
@@ -25,14 +25,15 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	}
 	else
 	{
-
 		dlistint_t *third_node = *head;
 
+
 		while (third_node->next != NULL)
-		
+
 			third_node = third_node->next;
 
 		third_node->next = second_node;
+		second_node->prev = third_node;
 	}
 
 	return (second_node);
