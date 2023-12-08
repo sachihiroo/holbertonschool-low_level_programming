@@ -1,8 +1,7 @@
 #include "lists.h"
 /**
- * get_dnodeint_at_index -  a function that returns the nth node.
+ * sum_dlistint -  a function that returns the nth node.
  * @head: pointer
- * @index: int
  * Return: 0.
  */
 int sum_dlistint(dlistint_t *head)
@@ -18,7 +17,7 @@ int sum_dlistint(dlistint_t *head)
 	{
 		i = p->n;
 	}
-	
+
 	while (p->next)
 	{
 		i += p->n;
@@ -28,7 +27,7 @@ int sum_dlistint(dlistint_t *head)
 			i += p->n;
 			break;
 		}
-		
+
 		p = p->next;
 	}
 
